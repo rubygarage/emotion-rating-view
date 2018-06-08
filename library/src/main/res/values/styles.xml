@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EmotionRatingTheme">
+        <item name="faceColor">@color/colorBlack</item>
+        <item name="gradeColor">@color/colorWhite</item>
+        <item name="zeroGradeGradientColors">@array/defaultZeroGradeGradientColors</item>
+        <item name="oneGradeGradientColors">@array/defaultOneGradeGradientColors</item>
+        <item name="twoGradeGradientColors">@array/defaultTwoGradeGradientColors</item>
+        <item name="threeGradeGradientColors">@array/defaultThreeGradeGradientColors</item>
+        <item name="fourGradeGradientColors">@array/defaultFourGradeGradientColors</item>
+        <item name="fiveGradeGradientColors">@array/defaultFiveGradeGradientColors</item>
+    </style>
+
+</resources>

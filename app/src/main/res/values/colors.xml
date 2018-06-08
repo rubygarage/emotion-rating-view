@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#FDAC54</color>
+    <color name="firstGradientColor">#626DBD</color>
+    <color name="secondGradientColor">#544BA6</color>
+    <color name="thirdGradientColor">#493395</color>
+    <color name="fourthGradientColor">#43248B</color>
+    <color name="fifthGradientColor">#411F88</color>
+    <color name="colorTranslucentBlack">#0A000000</color>
+    <color name="colorTranslucentGray">#C8E5E5E5</color>
+    <color name="colorTransparent">#00000000</color>
+
+</resources>

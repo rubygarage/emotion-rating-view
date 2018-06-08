@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="mouth_name">mouth</string>
+    <string name="star_name">star</string>
+    <string name="circle_name">circle</string>
+
+    <string name="mouth_zero_rate_path">M6,10 L6,7 C5,7 18,7 19,7 L19,10 C19,10 6,10 6,10</string>
+    <string name="mouth_one_rate_path">M6.5,12 L2,12 C4,2 20,2 22,12 L17.5,12 C16,12 8,12 6.5,12</string>
+    <string name="mouth_two_rate_path">M6.5,12 L3.5,11 C6,3 18,3 20.5,11 L17.5,12 C16,7 8,7 6.5,12</string>
+    <string name="mouth_three_rate_path">M6,11 L5.2,8 C5,8 18,5 18.2,5 L19,8 C19,8 6,11 6,11</string>
+    <string name="mouth_four_rate_path">M3.5,7 L6.5,6 C8,11 16,11 17.5,6 L20.5,7 C18,15 6,15 3.5,7</string>
+    <string name="mouth_five_rate_path">M2,5 L6.5,5 C8,5 16,5 17.5,5 L22,5 C20,15 4,15 2,5</string>
+
+    <string name="eye_path">M3,12 C3.5,0 20.5,0 21,12 C20.5,24 3.5,24 3,12Z</string>
+
+    <string name="star_path">M2,9.24 L9.19,8.63 L12,2 L14.81,8.63 L22,9.24 L16.54,13.97 L18.18,21 L12,17.27 L5.82,21 L7.46,13.97Z</string>
+    <string name="star_scale_collapse">0.25</string>
+    <string name="star_scale_expand">1</string>
+    <string name="star_rotation_collapse">-45</string>
+    <string name="star_rotation_expand">0</string>
+
+</resources>

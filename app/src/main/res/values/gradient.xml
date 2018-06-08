@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="garageZeroGradeGradientColors">
+        <item>@color/thirdGradientColor</item>
+        <item>@color/thirdGradientColor</item>
+    </integer-array>
+
+    <integer-array name="garageOneGradeGradientColors">
+        <item>@color/fifthGradientColor</item>
+        <item>@color/fifthGradientColor</item>
+    </integer-array>
+
+    <integer-array name="garageTwoGradeGradientColors">
+        <item>@color/fifthGradientColor</item>
+        <item>@color/fourthGradientColor</item>
+        <item>@color/thirdGradientColor</item>
+        <item>@color/secondGradientColor</item>
+    </integer-array>
+
+    <integer-array name="garageThreeGradeGradientColors">
+        <item>@color/fourthGradientColor</item>
+        <item>@color/thirdGradientColor</item>
+        <item>@color/secondGradientColor</item>
+        <item>@color/firstGradientColor</item>
+    </integer-array>
+
+    <integer-array name="garageFourGradeGradientColors">
+        <item>@color/thirdGradientColor</item>
+        <item>@color/firstGradientColor</item>
+    </integer-array>
+
+    <integer-array name="garageFiveGradeGradientColors">
+        <item>@color/secondGradientColor</item>
+        <item>@color/firstGradientColor</item>
+        <item>@color/firstGradientColor</item>
+    </integer-array>
+
+</resources>

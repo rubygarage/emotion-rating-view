@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:drawable="@drawable/ic_mouth_zero"
+    tools:targetApi="lollipop">
+
+    <target xmlns:aapt="http://schemas.android.com/aapt"
+        android:name="@string/mouth_name">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="@integer/animation_duration"
+                android:interpolator="@android:interpolator/accelerate_decelerate"
+                android:propertyName="pathData"
+                android:valueFrom="@string/mouth_zero_rate_path"
+                android:valueTo="@string/mouth_five_rate_path"
+                android:valueType="pathType" />
+        </aapt:attr>
+    </target>
+
+</animated-vector>

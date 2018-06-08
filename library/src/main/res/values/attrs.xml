@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="faceColor" format="reference|color" />
+    <attr name="gradeColor" format="reference|color" />
+
+    <declare-styleable name="GradientBackgroundView">
+        <attr name="zeroGradeGradientColors" format="reference" />
+        <attr name="oneGradeGradientColors" format="reference" />
+        <attr name="twoGradeGradientColors" format="reference" />
+        <attr name="threeGradeGradientColors" format="reference" />
+        <attr name="fourGradeGradientColors" format="reference" />
+        <attr name="fiveGradeGradientColors" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RatingView">
+        <attr name="android:layout_height" />
+        <attr name="android:background" />
+        <attr name="gap" format="dimension" />
+    </declare-styleable>
+
+</resources>

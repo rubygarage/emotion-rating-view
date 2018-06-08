@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:drawable="@drawable/ic_grade_expanded"
+    tools:targetApi="lollipop">
+
+    <target xmlns:aapt="http://schemas.android.com/aapt"
+        android:name="@string/star_name">
+        <aapt:attr name="android:animation">
+
+            <set>
+                <objectAnimator
+                    android:duration="@integer/animation_duration"
+                    android:interpolator="@android:interpolator/accelerate_decelerate"
+                    android:propertyName="scaleX"
+                    android:valueFrom="@string/star_scale_expand"
+                    android:valueTo="@string/star_scale_collapse"
+                    android:valueType="floatType" />
+
+                <objectAnimator
+                    android:duration="@integer/animation_duration"
+                    android:interpolator="@android:interpolator/accelerate_decelerate"
+                    android:propertyName="scaleY"
+                    android:valueFrom="@string/star_scale_expand"
+                    android:valueTo="@string/star_scale_collapse"
+                    android:valueType="floatType" />
+
+                <objectAnimator
+                    android:duration="@integer/animation_duration"
+                    android:interpolator="@android:interpolator/accelerate_decelerate"
+                    android:propertyName="rotation"
+                    android:valueFrom="@string/star_rotation_expand"
+                    android:valueTo="@string/star_rotation_collapse"
+                    android:valueType="floatType" />
+            </set>
+
+        </aapt:attr>
+    </target>
+
+</animated-vector>

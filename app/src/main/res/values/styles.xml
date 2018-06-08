@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus" tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="RubyGarageTheme" parent="AppTheme">
+        <item name="faceColor">@color/colorWhite</item>
+        <item name="gradeColor">@color/orange</item>
+        <item name="zeroGradeGradientColors">@array/garageZeroGradeGradientColors</item>
+        <item name="oneGradeGradientColors">@array/garageOneGradeGradientColors</item>
+        <item name="twoGradeGradientColors">@array/garageTwoGradeGradientColors</item>
+        <item name="threeGradeGradientColors">@array/garageThreeGradeGradientColors</item>
+        <item name="fourGradeGradientColors">@array/garageFourGradeGradientColors</item>
+        <item name="fiveGradeGradientColors">@array/garageFiveGradeGradientColors</item>
+    </style>
+
+</resources>

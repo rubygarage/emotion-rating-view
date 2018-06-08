@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="defaultZeroGradeGradientColors">
+        <item>@color/colorOrange</item>
+        <item>@color/colorOrange</item>
+    </integer-array>
+
+    <integer-array name="defaultOneGradeGradientColors">
+        <item>@color/colorDeepOrange</item>
+        <item>@color/colorDeepOrange</item>
+    </integer-array>
+
+    <integer-array name="defaultTwoGradeGradientColors">
+        <item>@color/colorOrange</item>
+        <item>@color/colorDeepOrange</item>
+    </integer-array>
+
+    <integer-array name="defaultThreeGradeGradientColors">
+        <item>@color/colorAmber</item>
+        <item>@color/colorOrange</item>
+        <item>@color/colorOrange</item>
+        <item>@color/colorDeepOrange</item>
+    </integer-array>
+
+    <integer-array name="defaultFourGradeGradientColors">
+        <item>@color/colorAmber</item>
+        <item>@color/colorAmber</item>
+        <item>@color/colorOrange</item>
+    </integer-array>
+
+    <integer-array name="defaultFiveGradeGradientColors">
+        <item>@color/colorAmber</item>
+        <item>@color/colorYellow</item>
+        <item>@color/colorYellow</item>
+        <item>@color/colorYellow</item>
+    </integer-array>
+
+</resources>

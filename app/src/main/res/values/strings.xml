@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Emotion Rating</string>
+
+    <string name="please_rate_our_app">Please rate our app</string>
+    <string name="do_let_us_know_your_thoughts">Do let us know your thoughts. Your feedback matters!</string>
+    <string name="skip">Skip</string>
+    <string name="submit">Submit</string>
+    <string name="skip_button_clicked">Skip button clicked!</string>
+    <string name="submit_button_clicked">Submit button clicked with %d rating!</string>
+
+</resources>

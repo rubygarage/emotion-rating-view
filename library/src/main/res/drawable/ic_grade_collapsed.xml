@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportHeight="24.0"
+    android:viewportWidth="24.0">
+
+    <group
+        android:name="@string/star_name"
+        android:pivotX="12"
+        android:pivotY="12"
+        android:rotation="@string/star_rotation_collapse"
+        android:scaleX="@string/star_scale_collapse"
+        android:scaleY="@string/star_scale_collapse">
+
+        <path
+            android:fillColor="?attr/gradeColor"
+            android:pathData="@string/star_path" />
+
+    </group>
+
+    <group
+        android:name="@string/circle_name"
+        android:pivotX="12"
+        android:pivotY="12"
+        android:scaleX="0.3"
+        android:scaleY="0.3"
+        android:translateY="0.15">
+
+        <path
+            android:fillColor="?attr/gradeColor"
+            android:pathData="@string/eye_path" />
+
+    </group>
+
+</vector>
