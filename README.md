@@ -2,7 +2,11 @@
 
 ## Inspiration
 
-EmotionRatingView was inspired by a UI/UX Demo by[Adip Nayak](https://dribbble.com/shots/3828382-Feedback)
+EmotionRatingView was inspired by a UI/UX Demo by [Adip Nayak](https://dribbble.com/shots/3828382-Feedback)
+
+## Demo
+
+<img src="https://github.com/rubygarage/emotion-rating-view/blob/master/app/src/main/assets/sample.gif" width="40%" height="40%">
 
 ## Description
 `EmotionRatingView` library contains `EmotionView`, `RatingView`, and `GradientBackgroundView`.
@@ -115,7 +119,7 @@ You can also see the example to get better understanding.
 `RatingView`
 
 | Property | Description |
-|:---:|:---:|
+|:---|:---|
 |android:layout_height| Changes the height of grades|
 |android:background| Changes the background of the RatingView|
 |app:gap| Changes the distance between grades|
