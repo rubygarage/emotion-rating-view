@@ -185,3 +185,15 @@ Also, you have to define the arrays of colors that you want to use. **There must
     <item>@color/firstGradientColor</item>
     <item>@color/firstGradientColor</item>
 </integer-array>
+```
+## Requirements
+* Android 4.1 (API 16) - a minimum supported version
+* Android Studio for application build
+* Gradle to install all the dependencies   
+
+## License
+The ShopApp for Android is licensed under the [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0)
+***
+<a href="https://rubygarage.org/"><img src="https://github.com/rubygarage/shopapp-shopify-ios/blob/master/assets/rubygarage.png?raw=true" alt="RubyGarage Logo" width="415" height="128"></a>
+
+RubyGarage is a leading software development and consulting company in Eastern Europe. Our main expertise includes Ruby and Ruby on Rails, but we successfuly employ other technologies to deliver the best results to our clients. [Check out our portoflio](https://rubygarage.org/portfolio) for even more exciting works!
