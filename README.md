@@ -1,6 +1,6 @@
 # EmotionRatingView
 
-[![Version](https://jitpack.io/v/rubygarage/emotion-rating-view.svg?style=flat-square)](https://jitpack.io/rubygarage/emotion-rating-view)
+[![Version](https://jitpack.io/v/rubygarage/emotion-rating-view.svg?style=flat-square)](https://jitpack.io/#rubygarage/emotion-rating-view)
 [![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg?style=flat-square)](https://android-arsenal.com/api?level=16)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square)](https://opensource.org/licenses/Apache-2.0)
 
