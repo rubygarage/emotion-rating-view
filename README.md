@@ -31,7 +31,7 @@ allprojects {
 
 ``` gradle
 dependencies {
-    implementation ‘com.github.rubygarage:emotion-rating-view:v1.0.0’
+    implementation ‘com.github.rubygarage:emotion-rating-view:v1.0.1’
 }
 ```
 
