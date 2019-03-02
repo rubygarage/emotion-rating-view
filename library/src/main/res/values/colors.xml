@@ -7,5 +7,6 @@
     <color name="colorAmber">#EF9C4E</color>
     <color name="colorOrange">#FB8621</color>
     <color name="colorDeepOrange">#EC5016</color>
+    <color name="colorTranslucentBlack">#0A000000</color>
 
 </resources>
