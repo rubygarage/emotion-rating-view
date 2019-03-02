@@ -1,9 +1,9 @@
 package com.dm.emotionrating.library
 
 import android.content.Context
-import android.support.graphics.drawable.Animatable2Compat
-import android.support.graphics.drawable.AnimatedVectorDrawableCompat
 import android.util.AttributeSet
+import androidx.vectordrawable.graphics.drawable.Animatable2Compat
+import androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat
 import kotlinx.android.synthetic.main.view_emotion.view.*
 
 class EmotionView @JvmOverloads constructor(
@@ -20,8 +20,8 @@ class EmotionView @JvmOverloads constructor(
         val animation = getRateAnimation(previousRating, newRating)
         animation?.let {
             val animatedVector = getDrawable(
-                it.toString(),
-                { AnimatedVectorDrawableCompat.create(context, it) })
+                it.toString()
+            ) { AnimatedVectorDrawableCompat.create(context, it) }
             mouth.setImageDrawable(animatedVector)
             (animatedVector as Animatable2Compat).start()
         }

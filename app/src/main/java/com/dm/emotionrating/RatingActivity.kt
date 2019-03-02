@@ -2,8 +2,8 @@ package com.dm.emotionrating
 
 import android.os.Bundle
 import android.preference.PreferenceManager
-import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.dm.emotionrating.library.Constant.ZERO_RATING
 import kotlinx.android.synthetic.main.activity_rating.*
 
