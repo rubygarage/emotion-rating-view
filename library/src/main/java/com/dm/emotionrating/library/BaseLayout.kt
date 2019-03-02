@@ -2,9 +2,9 @@ package com.dm.emotionrating.library
 
 import android.content.Context
 import android.graphics.drawable.Drawable
-import android.support.v7.app.AppCompatDelegate
 import android.util.AttributeSet
 import android.widget.FrameLayout
+import androidx.appcompat.app.AppCompatDelegate
 
 open class BaseLayout<T : Drawable> @JvmOverloads constructor(
     context: Context,

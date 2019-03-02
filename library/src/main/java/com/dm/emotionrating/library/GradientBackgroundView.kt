@@ -71,13 +71,11 @@ class GradientBackgroundView @JvmOverloads constructor(
         val newGradientColors = getGradientColors(newRating)
 
         val firstGradient = getDrawable(
-            previousRating.toString(),
-            { GradientDrawable(GradientDrawable.Orientation.TOP_BOTTOM, previousGradientColors) }
-        )
+            previousRating.toString()
+        ) { GradientDrawable(GradientDrawable.Orientation.TOP_BOTTOM, previousGradientColors) }
         val secondGradient = getDrawable(
-            newRating.toString(),
-            { GradientDrawable(GradientDrawable.Orientation.TOP_BOTTOM, newGradientColors) }
-        )
+            newRating.toString()
+        ) { GradientDrawable(GradientDrawable.Orientation.TOP_BOTTOM, newGradientColors) }
 
         gradientView.alpha = 0f
         gradientView.animate()

@@ -31,7 +31,7 @@ allprojects {
 
 ``` gradle
 dependencies {
-    implementation ‘com.github.rubygarage:emotion-rating-view:v1.0.0’
+    implementation ‘com.github.rubygarage:emotion-rating-view:v1.0.1’
 }
 ```
 
@@ -39,7 +39,7 @@ dependencies {
 You can also use all views separately.
 
 ``` xml
-    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -83,7 +83,7 @@ You can also use all views separately.
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/emotionView" />
                 
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
 **Add to your Activity.**

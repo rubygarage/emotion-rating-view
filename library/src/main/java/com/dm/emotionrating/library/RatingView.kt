@@ -3,14 +3,14 @@ package com.dm.emotionrating.library
 import android.content.Context
 import android.graphics.drawable.Drawable
 import android.os.Build
-import android.support.graphics.drawable.Animatable2Compat
-import android.support.graphics.drawable.AnimatedVectorDrawableCompat
 import android.util.AttributeSet
 import android.view.View
 import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.LinearLayout.HORIZONTAL
+import androidx.vectordrawable.graphics.drawable.Animatable2Compat
+import androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat
 import com.dm.emotionrating.library.Constant.MAX_RATING
 import com.dm.emotionrating.library.Constant.MIN_RATING
 
@@ -102,12 +102,12 @@ class RatingView @JvmOverloads constructor(
             }
             grade.layoutParams = gradeLayoutParams
             grade.setImageDrawable(
-                getDrawable(getCacheKey(grade, collapseToExpandAnimation), {
+                getDrawable(getCacheKey(grade, collapseToExpandAnimation)) {
                     AnimatedVectorDrawableCompat.create(
                         context,
                         collapseToExpandAnimation
                     )
-                })
+                }
             )
             grade.setOnClickListener(this)
             gradeContainer.addView(grade)
@@ -133,8 +133,8 @@ class RatingView @JvmOverloads constructor(
 
                     if (isResourceChanged && isResourceAnimated) {
                         val animatedVector = getDrawable(
-                            getCacheKey(grade, newVectorResource),
-                            { AnimatedVectorDrawableCompat.create(context, newVectorResource) })
+                            getCacheKey(grade, newVectorResource)
+                        ) { AnimatedVectorDrawableCompat.create(context, newVectorResource) }
                         grade.tag = newVectorResource
                         grade.setImageDrawable(animatedVector)
                         (animatedVector as? Animatable2Compat)?.let {
