@@ -35,6 +35,10 @@ dependencies {
 }
 ```
 
+**Note that starting from 1.0.1, the library is expected to use with AndroidX. Please migrate to [AndroidX](https://developer.android.com/jetpack/androidx/migrate) if you use 1.0.1 or above.**
+
+**Please use 1.0.0 if you haven't migrated to AndroidX.**
+
 **Add `EmotionRatingView` library to your layout**. 
 You can also use all views separately.
 
